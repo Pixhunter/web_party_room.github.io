@@ -1,5 +1,3 @@
-
-/*HELLO %username%! It's CSS styles, fuck u */
 BODY 
 {
 	perspective: 500px;
@@ -11,8 +9,7 @@ BODY
 	padding: 0px;
 	border:0px;
 	margin:0;
-	background: black;
- 
+	background: black; 
 }
 
 
@@ -43,9 +40,7 @@ BODY
 	  z-index: 1;
 	}
 }
-
-
-
+ 
 .container:before,
 .container:after 
 {
@@ -76,15 +71,13 @@ BODY
 	  opacity: 1;
 	 
 	  transform:  translateY(15em) translateZ(15em) rotateY(90deg);
-	  background-image: url(mise_oleg.png);
+	  background-image: url(Images/mise_oleg.png);
 	  background-repeat:  no-repeat;
 	  background-size: 100%; 
 		
-	  animation: mise_go 15s infinite linear;
-  
+	  animation: mise_go 15s infinite linear; 
 }
-
-
+ 
 .side 
 {
 	  position: absolute;
@@ -93,10 +86,7 @@ BODY
 	  border: 1px solid white;
 	  opacity: 1;
 }
-
-
-  
-
+ 
 .leftwall
 {
 	  position: absolute;
@@ -105,12 +95,11 @@ BODY
 	  border: 0px solid white;
 	  opacity: 1;
 	  transform: translateX(20.1em) translateY(-5em) translateZ(10em) rotateY(-90deg) ;
-	  background-image: url(right_wall.jpg);
+	  background-image: url(Images/right_wall.jpg);
 	  background-repeat:  n0-repeat;
 	  background-size: 100%;
 }
   
-
 .rightwall
 {
 	  position: absolute;
@@ -120,7 +109,7 @@ BODY
 	  opacity: 1;
 	 
 	  transform: translateX(-30em) translateY(-5em) translateZ(10em) rotateY(90deg);
-	  background-image: url(left_wall.jpg);
+	  background-image: url(Images/left_wall.jpg);
 	  background-repeat:  no-repeat;
 	  background-size: 100%;
 }
@@ -135,7 +124,7 @@ BODY
  
 	transform: translateX(-20em) translateY(-15em) translateZ(10em) rotateX(90deg);
   
-    background-image: url(potol.jpg);
+    background-image: url(Images/potol.jpg);
 	background-repeat:  no-repeat;
 	background-size: 100%;
 } 
@@ -149,20 +138,19 @@ BODY
 	  opacity: 1;
 	 
 	  transform: translateX(-20em) translateY(5em) translateZ(10em) rotateX(90deg) ;
-	  background-image: url(polol.jpg);
+	  background-image: url(Images/polol.jpg);
 	  background-repeat: no-repeat;
 	  background-size: 100%; 
 }
 .front {
 	box-shadow: 0 0 50px magenta;
     transform: translateZ(5em) translateZ(-5);
-    background-image: url(lapa.jpg);
+    background-image: url(Images/lapa.jpg);
 	background-repeat:  no-repeat;
 	background-size: cover; 
 	animation: seeya .75s ease-out infinite;
   }
-  
-/*-------------------------------------------------backwall + okno ---------------*/
+
   .backwall_u{
   position: absolute;
   width: 10em;
@@ -171,7 +159,7 @@ BODY
   opacity: 1;
 
    transform: translateX(-15em) translateY(-5em) translateZ(0em) rotateX(0deg);
-    background-image: url(bricket.jpg);
+    background-image: url(Images/bricket.jpg);
 	background-repeat:  repeat;
 	background-size: 100%; 
   }
@@ -194,7 +182,7 @@ BODY
   opacity: 1;
 
    transform: translateX(-5em) translateY(-5em) translateZ(0em) rotateX(0deg);
-    background-image: url(bricket.jpg);
+    background-image: url(Images/bricket.jpg);
 	background-repeat:  repeat;
 	background-size: 30%; 
   }
@@ -231,7 +219,7 @@ BODY
 	  opacity: 1;
 
 	  transform: translateX(-20em) translateY(-5em) translateZ(0em) rotateX(0deg);
-	  background-image: url(bricket.jpg);
+	  background-image: url(Images/bricket.jpg);
 	  background-repeat:  repeat-y;
 	  background-size: 190%; 
 }
@@ -248,10 +236,6 @@ BODY
 	  background: pink; 
 }
 
-/*-------------------------------------------------backwall + okno ---------------*/
- 
-/*-------------------------------------------------VENTILIATOR---------------*/
-
 .venteliator_v1
 {
 	  position: fixed;
@@ -259,7 +243,7 @@ BODY
 	  height: 11em;
 	  opacity: 1;
 
-      background-image: url(ventil.png);
+      background-image: url(Images/ventil.png);
 	  background-repeat:  no-repeat;
 	  background-size: 100%; 
 	  z-index:1;
@@ -275,23 +259,20 @@ BODY
 	  border: 0px solid white;
 	  opacity: 1;
 
-      background-image: url(ventil2.png);
+      background-image: url(Images/ventil2.png);
 	  background-repeat:  no-repeat;
 	  background-size: 100%; 
 	  
 	  -webkit-filter: blur(2px);
       -moz-filter: blur(2px);
       filter: blur(2px);
-      filter: url(be2.jpg#blur');
+      filter: url(Images/be2.jpg#blur');
 	  
       z-index:5;
 	  animation: vent_go_round2 1s infinite linear;
 
 }
 
-/*-------------------------------------------------VENTILIATOR---------------*/
-/*-------------------------------------------------podushka 1---------------*/
-  
 .divan_poduha_1_bottom
 {
 	  position: absolute;
@@ -300,7 +281,7 @@ BODY
 	  border: 0px solid white;
 	  opacity: 1;
  
-      background-image: url(spina.jpg);
+      background-image: url(Images/spina.jpg);
 	  background-repeat:  repeat;
 	  background-size: 150%;
 	
@@ -318,8 +299,7 @@ BODY
 	  
 	  background: black;
 		
-	  transform: translateX(-17em) translateY(9.5em) translateZ(3em)  rotateX(0deg) rotateY(90deg) rotateZ(0deg);
-	 
+	  transform: translateX(-17em) translateY(9.5em) translateZ(3em)  rotateX(0deg) rotateY(90deg) rotateZ(0deg);  
 }
   
 .divan_poduha_1_ri
@@ -348,11 +328,8 @@ BODY
 	
       transform: translateX(-16.5em) translateY(9em) translateZ(3em)  rotateX(90deg) rotateY(0deg) rotateZ(0deg);
 	 
-}
-  
-/*-------------------------------------------------podushka 1---------------*/
-  
-/*-------------------------------------------------STOL---------------*/
+} 
+
 .stol_oval 
 {
 	width: 6em;
@@ -360,7 +337,7 @@ BODY
 	background: #83A7C9;
 	border: 4px solid white;
 	
-	background-image: url(stolik.png);
+	background-image: url(Images/stolik.png);
 	background-repeat:  no-repeat;
 	background-size: 100%; 
 	border-radius: 50%;
@@ -375,7 +352,7 @@ BODY
 	  border: 0px solid white;
 	  opacity: 1;
 
-      background-image: url(stolik_noga.png);
+      background-image: url(Images/stolik_noga.png);
 	  background-repeat:  no-repeat;
 	  background-size: 100%; 
 	
@@ -389,16 +366,13 @@ BODY
 	  border: 0px solid white;
 	  opacity: 1;
 
-	  background-image: url(stolik_noga.png);
+	  background-image: url(Images/stolik_noga.png);
 	  background-repeat:  no-repeat;
 	  background-size: 100%; 
 		
 	  transform: translateX(-16.5em) translateY(4em) translateZ(13em) rotateX(0deg) rotateY(10deg) rotateZ(0deg);
 }
 
-/*-------------------------------------------------STOL---------------*/
-
-/*----------------------------------------------------------------------PALMA*/
 .sidetree 
 {
 	  position: absolute;
@@ -407,7 +381,7 @@ BODY
 	  border: 0px solid white;
 	  opacity: 1;
 
-	  background-image: url(palma.png);
+	  background-image: url(Images/palma.png);
 	  background-repeat:  no-repeat;
 	  background-size: cover; 
 }
@@ -477,14 +451,6 @@ BODY
 	 
 }
   
- 
-/*----------------------------------------------------------------------PALMA*/ 
-  
-  /*---------------------------------------------------DIVAN-------*/
-  /*---------------------------------------------------------------*/
-  /*---------------------------------------------------------------*/
-  /*--------------------------------------------------------------*/
-  
 .divan_down_down
 {
 	  position: absolute;
@@ -492,9 +458,7 @@ BODY
 	  height: 6em;
 	  border: 0px solid white;
 	  opacity: 1;
-	  
 	  background: black;
-		
 	  transform: translateX(-19em) translateY(11em) translateZ(4em) translateX(0em) rotateX(90deg) rotateZ(0deg); 
 }
   
@@ -506,8 +470,7 @@ BODY
 	  height: 6em;
 	  border: 0px solid white;
 	  opacity: 1;
-  
-      background-image: url(divan.jpg);
+      background-image: url(Images/divan.jpg);
 	  background-repeat:  repeat-x;
 	  background-size: 60%;
 
@@ -522,9 +485,8 @@ BODY
 	width: 17em;
 	height: 6em;
 	border: 0px solid white;
-	opacity: 1;
-	  
-	background-image: url(divan.jpg);
+	opacity: 1; 
+	background-image: url(Images/divan.jpg);
 	background-repeat:  repeat-x;
 	background-size: 60%;	
 	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%);
@@ -587,7 +549,7 @@ BODY
 	border: 0px solid white;
 	opacity: 1;
 	  
-	background-image: url(divan.jpg);
+	background-image: url(Images/divan.jpg);
 	background-repeat:  repeat-x;
 	background-size: 50%;
 		
@@ -601,7 +563,7 @@ BODY
 	border: 0px solid white;
 	opacity: 1;
   
-    background-image: url(divan.jpg);
+    background-image: url(Images/divan.jpg);
 	background-repeat:  repeat-x;
 	background-size: 50%;
 	background: linear-gradient(to bottom, rgba(0,0,1,0) 0%,rgba(0,0,0,1) 100%);
@@ -691,8 +653,7 @@ BODY
 	
 	transform: translateX(-20.5em) translateY(11em) translateZ(4em)  rotateX(0deg) rotateY(90deg) rotateZ(0deg);
 }
-
-/*-------------------------------------------------podushka 2---------------*/
+ 
 .divan_poduha_2_bottom
 {
 	  position: absolute;
@@ -702,7 +663,7 @@ BODY
 	  opacity: 1;
   
  
-      background-image: url(ko1a.jpg);
+      background-image: url(Images/ko1a.jpg);
 	  background-repeat:  repeat;
 	  background-size: 150%;
 	
@@ -734,15 +695,7 @@ BODY
 	  background: linear-gradient(to bottom left, rgba(188,94,163,1) 0%,rgba(0,0,0,1) 100%);
 	
 	  transform: translateX(-9.5em) translateY(9em) translateZ(3em)  rotateX(90deg) rotateY(0deg) rotateZ(0deg);
-} 
-/*-------------------------------------------------podushka 2---------------*/
-  
-  
-/*-------------------------------------------------PLAKATI---------------*/ 
-/*-------------------------------------------------PLAKATI---------------*/ 
-/*-------------------------------------------------PLAKATI---------------*/ 
-/*-------------------------------------------------PLAKATI---------------*/ 
-/*-------------------------------------------------PLAKATI---------------*/
+}  
 
 .plakat_rabota
 {
@@ -758,24 +711,15 @@ BODY
 	
       transform: translateX(-31em) translateY(-5em) translateZ(-7em)  rotateX(0deg) rotateY(0deg) rotateZ(0deg); 
 }
-/*-------------------------------------------------PLAKATI---------------*/ 
-/*-------------------------------------------------PLAKATI---------------*/ 
-/*-------------------------------------------------PLAKATI---------------*/ 
-/*-------------------------------------------------PLAKATI---------------*/ 
-/*-------------------------------------------------PLAKATI---------------*/ 
 
-/*-------------------------------------------------NOGI DIVANA---------------*/
-  
 .divan_noga_1_l
 {
 	  position: absolute;
 	  width: .5em;
 	  height: 1.5em;
 	  border: 0px solid white;
-	  opacity: 1;
-	  
-	  background:  #393939 ;
-		
+	  opacity: 1; 
+	  background:  #393939 ; 
 	  transform: translateX(-3em) translateY(13.5em) translateZ(6.1em)  rotateX(0deg) rotateY(0deg) rotateZ(0deg);	 
 }
 .divan_noga_1_r
@@ -784,10 +728,8 @@ BODY
 	  width: .5em;
 	  height: 1.5em;
 	  border: 0px solid white;
-	  opacity: 1;
-	  
-	  background:gray;
-		
+	  opacity: 1; 
+	  background:gray; 
 	  transform: translateX(-2.75em) translateY(13.5em) translateZ(5.8em)  rotateX(0deg) rotateY(90deg) rotateZ(0deg);	 
 }
 .divan_noga_1_b
@@ -796,11 +738,8 @@ BODY
 	  width: .5em;
 	  height: 1.5em;
 	  border: 0px solid white;
-	  opacity: 1;
-	  
-	 
-	  background: #191919;
-		
+	  opacity: 1; 
+	  background: #191919; 
 	  transform: translateX(-3.25em) translateY(13.5em) translateZ(5.8em)  rotateX(0deg) rotateY(90deg) rotateZ(0deg);	 
 }
   
@@ -810,10 +749,8 @@ BODY
 	  width: .5em;
 	  height: 1.5em;
 	  border: 0px solid white;
-	  opacity: 1;
-	  
-	  background:  #393939 ;
-		
+	  opacity: 1; 
+	  background:  #393939 ; 
 	  transform: translateX(-18em) translateY(13.5em) translateZ(6.1em)  rotateX(0deg) rotateY(0deg) rotateZ(0deg); 
 }
 .divan_noga_2_r
@@ -822,10 +759,8 @@ BODY
 	  width: .5em;
 	  height: 1.5em;
 	  border: 0px solid white;
-	  opacity: 1;
-	  
-	  background:gray;
-		
+	  opacity: 1; 
+	  background:gray; 
 	  transform: translateX(-17.75em) translateY(13.5em) translateZ(5.8em)  rotateX(0deg) rotateY(90deg) rotateZ(0deg); 
 }
 
@@ -835,10 +770,8 @@ BODY
 	  width: .5em;
 	  height: 1.5em;
 	  border: 0px solid white;
-	  opacity: 1; 
-	 
-	  background:  #393939 ;
-		
+	  opacity: 1;  
+	  background:  #393939 ; 
 	  transform: translateX(-3em) translateY(13.5em) translateZ(2.1em)  rotateX(0deg) rotateY(0deg) rotateZ(0deg);
 }
 .divan_noga_3_r
@@ -847,10 +780,8 @@ BODY
 	  width: .5em;
 	  height: 1.5em;
 	  border: 0px solid white;
-	  opacity: 1;
-
-	  background:gray;
-		
+	  opacity: 1; 
+	  background:gray; 
 	  transform: translateX(-2.75em) translateY(13.5em) translateZ(1.8em)  rotateX(0deg) rotateY(90deg) rotateZ(0deg);
 }
 
@@ -938,9 +869,7 @@ BODY
   100% {
     transform: translateX(-8em) translateY(-10em) translateZ(15em) rotateX(90deg) rotateY(0deg) rotateZ(360deg);
   }  
-}
-
-
+} 
 
 .footer 
 { 
@@ -967,13 +896,11 @@ BODY
 
 .menu 
 {
-	padding: 0px;
-	/* background: linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,.5) 80%, rgba(0,0,0,1) 110%);**/
+	padding: 0px; 
 	margin-right: 0%; 
 	margin: 0%; 
 	position: fixed;
-	top:0%;
-	
+	top:0%; 
 	right: 8%;
 	padding-right: 1%;
 	text-align: left; 
@@ -994,8 +921,7 @@ BODY
 	position: fixed;
 	bottom:5%;
 	top:30%;
-	height:100%;
-	
+	height:100%; 
 	bottom: 0%;
 	left: 2%;
 	text-align: left; 
@@ -1005,8 +931,7 @@ BODY
 }
 
 @media screen and (max-width: 600px) 
-{	
-			
+{	 	
 	.SSIS 
 	{
 		border:0;
@@ -1030,18 +955,15 @@ BODY
 	
 	.menu_bot 
 	{
-		padding: 0px;
-		/* background: linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,.5) 80%, rgba(0,0,0,1) 110%);**/
+		padding: 0px; 
 		margin-right: 0%; 
 		margin: 0%; 
 		position: fixed;
 		bottom:-35%;
 		height:15%;
 		padding-left: 3%;
-		padding-right:3%;
-	
-		right: -100%;
-					
+		padding-right:3%; 
+		right: -100%; 
 		text-align: left; 
 		border: 0px solid #000;
 		background: black;
@@ -1059,7 +981,7 @@ BODY
 		border: 0px solid white;
 		opacity: .8;
 	  
-		background-image: url(dimit.png);
+		background-image: url(Images/dimit.png);
 		background-repeat:  no-repeat;
 		background-size: 100%; 
 		
@@ -1099,7 +1021,7 @@ BODY
 		border: 0px solid white;
 		opacity: .8;
 	  
-		background-image: url(dimit.png);
+		background-image: url(Images/dimit.png);
 		background-repeat:  no-repeat;
 		background-size: 100%; 
 		
@@ -1163,8 +1085,7 @@ BODY
 	}
 	.menu_bot 
 	{
-		padding: 0px;
-		/* background: linear-gradient(to top, rgba(0,0,0,0) 20%, rgba(0,0,0,.5) 80%, rgba(0,0,0,1) 110%);**/
+		padding: 0px; 
 		margin-right: 0%; 
 		margin: 0%; 
 		position: fixed;
@@ -1187,8 +1108,7 @@ li
   display: block;
 }
 
-
-//////// 
+ 
 HTML, BODY 
 {
     height: 100%;
