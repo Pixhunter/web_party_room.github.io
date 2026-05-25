@@ -1,5 +1,4 @@
-
-/*HELLO %username%! It's CSS styles, fuck u */
+ 
 BODY 
 {
 	perspective: 500px;
@@ -76,7 +75,7 @@ BODY
 	  opacity: 1;
 	 
 	  transform:  translateY(15em) translateZ(15em) rotateY(90deg);
-	  background-image: url(mise_oleg.png);
+	  background-image: url("mise_oleg.png");
 	  background-repeat:  no-repeat;
 	  background-size: 100%; 
 		
